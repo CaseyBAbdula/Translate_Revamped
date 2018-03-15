@@ -2,7 +2,7 @@
 Google Translate extension for chrome
 
 ## Install Instructions
-1. Click [HERE](https://github.com/CaseyBAbdula/Translate_pxy/archive/master.zip) to download .zip file
+1. Click [HERE](https://github.com/CaseyBAbdula/Translate_Revamped/archive/master.zip) to download .zip file
 2. Extract zip
 3. Go to Chrome
 4. Paste "<chrome://extensions/>" (without the quotes) into the search bar
@@ -13,9 +13,9 @@ Google Translate extension for chrome
 ## Usage Instructions
 ### To turn on the proxy
 1. Click on the ![icon][icon16] icon in the upper right corner
-2. If you see the words "Enabled", you should be able to bypass the schools filters. If you instead see "Disabled", click in the on-off switch. It should now be enabled
+2. To enable, look at the switch in the top right corner. If it says "on", then you should be good. If it says "off", click on it to toggle the proxy on
 ### To translate
- The translate function only works when your proxy is enabled. To translate text, just highlight it with the proxy enabled
+ The translate function only works when your proxy is enabled. To translate text, just highlight it with the proxy enabled, or click on the icon in the tray and input what you want translated into the input box and hit the enter key or click on the "Translate" button
 
 #### Contact:
 Email: casey.b.abdula@gmail.com
