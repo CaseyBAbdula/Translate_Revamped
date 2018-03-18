@@ -1,0 +1,46 @@
+{
+  "manifest_version": 2,
+  "name": "Google Translate",
+  "description": "View translations easily as you browse the web.",
+  "version": "2.0.1",
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "*://*/*",
+    "proxy",
+    "storage",
+    "webRequest",
+    "management",
+    "webRequestBlocking",
+    "tabs"
+  ],
+  "content_scripts": [ {
+    "all_frames": true,
+    "js": [ "assets/js/translate.js" ],
+    "css": [ "assets/css/translate.css" ],
+    "matches": [ "\u003Call_urls>" ]
+  } ],
+  "background": {
+    "scripts": [ "assets/js/background.js" ]
+  },
+  "icons": {
+    "16": "icon/16.png",
+    "19": "icon/19.png",
+    "32": "icon/32.png",
+    "38": "icon/38.png",
+    "48": "icon/48.png",
+    "128": "icon/128.png"
+  },
+  "browser_action": {
+    "default_popup": "control.html",
+    "default_icon": {
+      "16": "icon/16.png",
+      "19": "icon/19.png",
+      "32": "icon/32.png",
+      "38": "icon/38.png",
+      "48": "icon/48.png",
+      "128": "icon/128.png"
+    },
+    "default_title": "Google Translate"
+  }
+}

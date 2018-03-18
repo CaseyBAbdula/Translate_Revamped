@@ -1,0 +1,92 @@
+* {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+hr {
+	height: 0;
+	box-sizing: content-box;
+	border: 0;
+	border-top: 1px solid #d5d5d5;
+	margin: 0px;
+
+}
+
+#control {
+	min-width: 250px;
+	max-width: 300px;
+	background-color: #FFF;
+	padding: 10px;
+	display: inline-block;
+}
+
+#control > .header > .banner {
+	font-size: 16px;
+	display: inline-block;
+	vertical-align: top;
+	padding-bottom: 5px;
+}
+
+#control > .header > .banner  img {
+	width: 16px;
+	height: 16px;
+	margin: 0px 10px 2px 0px;
+	vertical-align: middle;
+}
+
+#control > .header > #switch {
+	display: inline-block;
+	float: right;
+	user-select: none;
+	border: 1px solid #c5c5c5;
+	border-radius: 5px;
+}
+
+#control > .header > #switch > span {
+	display: inline-block;
+	border-radius: 4px;
+}
+#control > .header > #switch > span > span {
+	display: inline-block;
+	padding: 3px 6px;
+	background-color: #f5f5f5;
+	border-radius: 4px;
+}
+#control > #translate {
+	font-size: 13px;
+	padding-top: 5px;
+	display: table;
+	margin: auto;
+}
+#control > #translate > #translateInput {
+	font-size: 14px;
+	margin-right: 5px;
+	width: 160px;
+	border: 1px solid #ccc;
+	padding: 2px;
+}
+#control > #translate > #translateInput:focus {
+	outline: none !important;
+}
+#control > #translate > #translateSubmit {
+	display: inline-block;
+	background-color: #5f9af8;
+	padding: 4px 7px;
+	color: #FFF;
+	border-radius: 4px;
+	cursor: pointer;
+}
+#control > #translation {
+	margin: 10px 10px 0px 10px;
+	display: none;
+}
+
+#control > #translation > .text {
+	font-size: 18px;
+	margin-left: 5px;
+}
+#control > #return {
+	display: none;
+	margin: 10px 10px 5px 10px;
+}
