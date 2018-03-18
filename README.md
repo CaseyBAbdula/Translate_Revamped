@@ -8,7 +8,15 @@ Google Translate extension for chrome
 4. Drag the crx file onto the chrome page
 5. Click okay or confirm any prompts given
 6. If you see a new icon ![icon][icon16] in the upper right corner of your browser, you've sucessfully installed the extension
-
+#### If the above method doesn't work!
+1. Click [HERE](https://github.com/CaseyBAbdula/Translate_Revamped/archive/master.zip) to download .zip file
+2. Extract the folder inside zip
+3. Place extracted folder somewhere sneaky
+4. Go to Chrome
+5. Paste "<chrome://extensions/>" (without the quotes) into the search bar
+6. Drag the extracted folder onto the chrome page
+7. Click okay or confirm any prompts given
+8. If you see a new icon ![icon][icon16] in the upper right corner of your browser, you've sucessfully installed the extension
 ## Usage Instructions
 ### To turn on the proxy
 1. Click on the ![icon][icon16] icon in the upper right corner
