@@ -1,3 +1,14 @@
+@keyframes slide {
+	0% {
+		right: 100%;
+		position: relative;
+	}
+	100% {
+		right: 0%;
+		position: relative;
+	}
+}
+
 * {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 0px;
@@ -78,6 +89,8 @@ hr {
 	cursor: pointer;
 }
 #control > #translation {
+	animation-name: slide;
+	animation-duration: 0.3s;
 	margin: 10px 10px 0px 10px;
 	display: none;
 }

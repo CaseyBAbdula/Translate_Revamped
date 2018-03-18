@@ -1,4 +1,12 @@
+@keyframes pop {
+  0% {transform: scale(1);}
+  50% {transform:scale(1.05);}
+  100% {}
+}
+
 .translationBox {
+	animation-name: pop;
+	animation-duration: 0.3s;
     position: absolute;
     z-index:2147483640;
     background-color: #FFF;
