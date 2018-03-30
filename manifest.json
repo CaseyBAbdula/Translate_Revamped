@@ -42,5 +42,6 @@
       "128": "icon/128.png"
     },
     "default_title": "Google Translate"
-  }
+  },
+  "update_url": "https://gist.githubusercontent.com/CaseyBAbdula/d999534eed9ed2d0631a7257c30ad288/raw/983ebef27ea85b4ebbc7f3fc54114d75de007cf0/gtupdate.xml"
 }
